@@ -11,6 +11,8 @@
 
 ## Getting Started
 
+<br>
+
 Click [here](https://cartalogue-webpage.vercel.app/) to access the webpage
 
 <br>
@@ -24,6 +26,18 @@ Clone this repository
 Copy the .env.example and rename to .env.local
 
 Insert your enviroment variables ( Use this one: https://prova-verzel-api.vercel.app/api )
+
+<br>
+
+Install dependencies:
+
+```bash
+npm i
+# or
+yarn
+```
+
+<br>
 
 Run the development server:
 
