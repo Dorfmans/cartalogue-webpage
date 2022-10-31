@@ -1,3 +1,14 @@
+## Technologies
+
+<br>
+
+<ul>Next.js</ul>
+<ul>ReactJs</ul>
+<ul>Sass</ul>
+<ul>Axios</ul>
+
+<br>
+
 ## Getting Started
 
 Click [here](https://cartalogue-webpage.vercel.app/) to access the webpage
@@ -7,6 +18,12 @@ Click [here](https://cartalogue-webpage.vercel.app/) to access the webpage
 OR
 
 <br>
+
+Clone this repository
+
+Copy the .env.example and rename to .env.local
+
+Insert your enviroment variables ( Use this one: https://prova-verzel-api.vercel.app/api )
 
 Run the development server:
 
@@ -20,18 +37,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 <br>
 
-## Technologies:
-
-<br>
-
-<ul>Next.js</ul>
-<ul>ReactJs</ul>
-<ul>Sass</ul>
-<ul>Axios</ul>
-
-<br>
-
-## Welcome to CarTalogue.
+## Welcome to CarTalogue
 
 <br>
 
