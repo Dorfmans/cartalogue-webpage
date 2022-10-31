@@ -1,0 +1,77 @@
+@import './variables.scss';
+
+@import '../public/fonts/fonts.scss';
+
+@import 'react-responsive-carousel/lib/styles/carousel.min.css';
+@import 'publicStyle.scss';
+@import 'login.scss';
+@import '../pages/admin/admin.scss';
+@import '../components/card/card.scss';
+@import '../components/buttons/button.scss';
+@import '../components/publicInput/publicInput.scss';
+@import '../components/adminInput/adminInput.scss';
+
+
+* {
+    color: $contentColor;
+    font-family: $fontBold;
+    font-size: 14px;
+}
+
+html,
+body,
+#__next {
+    margin: 0;
+}
+
+strong {
+    font-family: $fontBold;
+}
+
+body {
+    background-color: $primaryColor;
+}
+
+.hidden {
+    display: none !important;
+}
+
+input {
+    background-color: transparent;
+
+    &::placeholder {
+        color: $contentColor;
+        opacity: 0.9;
+    }
+
+    &:-ms-input-placeholder {
+        color: $contentColor;
+        opacity: 0.9;
+    }
+
+    &::-ms-input-placeholder {
+        color: $contentColor;
+        opacity: 0.9;
+    }
+}
+
+.desktop {
+    display: block;
+
+    @media screen and (max-width: calc($desktopBreakpoint - 1px)) {
+        display: none;
+    }
+}
+
+.mobile {
+    display: block;
+
+    @media screen and (min-width: $desktopBreakpoint) {
+        display: none;
+    }
+}
+
+.validateMessage {
+    color: $contentColor;
+    font-family: $fontLight;
+}

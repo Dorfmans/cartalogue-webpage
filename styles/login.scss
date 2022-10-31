@@ -1,0 +1,66 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 32px;
+    margin-top: 30vh;
+
+    .loginPageContent {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .btn {
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .loginPageFooter {
+        text-align: center;
+        margin-top: 24px;
+
+        p {
+            color: $contentColor;
+            margin: 0px 0px 2px;
+        }
+
+        a {
+            color: $textLinkColor;
+            font-family: $fontBold;
+        }
+    }
+
+    @media screen and (min-width: $desktopBreakpoint) {
+        flex-direction: row;
+        padding: 0 140px;
+        font-size: 18px;
+
+        .loginPageContent {
+            border: 1px solid $secondaryColor;
+            width: 30%;
+            border-radius: 30px;
+            padding: 70px;
+        }
+
+        .btn {
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .loginPageFooter {
+
+            p,
+            a {
+                font-size: 16px;
+            }
+        }
+
+        .publicInput {
+            input {
+                font-size: 16px;
+            }
+        }
+    }
+}
